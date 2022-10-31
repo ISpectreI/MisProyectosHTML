@@ -1,0 +1,356 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+    box-sizing: border-box;
+}
+/*nav*/
+header{
+ /* border: 4px solid rgb(30, 36, 197);*/
+    
+}
+body{
+   /* background-color: rgb(215, 183, 183);*/
+    padding: 10px;
+    background-image: url(https://c.tenor.com/0vvI4Pedad0AAAAC/retro-rocktopus.gif);
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contenedor{
+    background-image: url('');
+    
+    display: grid;
+ /*repetir 2 vces 1 fr*/
+    
+    height: auto;
+    width: 100%;
+}
+.nav{  grid-template-columns: repeat(3,1fr);}
+.nav__listaheader{
+ 
+    
+    width: 90%;
+    max-width: 500px;
+   /* border: 4px solid rgb(30, 36, 197);*/
+
+    
+}
+.nav__titulo{
+    justify-content: center;
+    display: flex;
+}
+
+.nav__titulo__img{
+    
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 4px 2px 2px #000;
+    object-position: center;
+}
+
+/*.nav__titulo h1{ /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Preguntar
+   
+    color:#fff;
+    border: 2px solid rgb(185, 134, 134);
+}*/
+.nav__listaheader ul{
+display: flex;
+justify-content: space-around;
+text-align: center;
+
+
+}
+.nav__listaheader ul li{
+  list-style: none;
+  border: rgba(255, 255, 255, 0.703) 3px outset;
+ padding: 10px;
+
+  
+    }
+    .itemsnav__item{display: flex; align-items: center;}
+    .itemsnav__inicio a{top:50x;}
+    .nav__listaheader ul li a{
+        
+      
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+     }
+     .menuresponsive i{
+        color: #fff;
+        display: none;
+    }
+    .menuresponsive img{
+        margin-left: 30px;
+        width: 20%;
+        border-radius: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        box-shadow: 4px 2px 2px #000;
+        object-position: center;
+    }
+    .nav__listaheader ul li{
+        background: linear-gradient(rgba(214, 7, 124, 0),rgba(91, 12, 78, 0.887));
+    }
+    .nav__listaheader ul li:hover{
+        background: linear-gradient(rgba(214, 7, 124, 0),rgba(57, 44, 56, 0.887));
+    }
+/*/////////////////////////////////////7////////////////////////////////*/
+
+
+
+/*/////////////////////////////////////7////////////////////////////////*/
+/*.nav__listaheader ul li a{
+    
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px #000;
+    color: #fff;
+    background-color: blueviolet;
+}*/
+
+/*nav*/
+
+/*------LOGO-------------*/
+.logo{grid-template-columns: repeat(1,1fr); width: auto;
+    height: 500px;
+     
+    /*background-image: url('/imgspectre/ilusracion3png.png');*/
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343a7, #000000b5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #43434368, #b10e8db3),url('/imgspectre/ilusracion3png.png'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+     background-position: center;
+       /* border: 4px solid rgb(30, 36, 197);*/
+        place-items: center;
+}
+.logo__imgfondo{
+    font-size: 50px;
+    width: 100%;
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.252);
+    
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px #000;
+    color: #fff;
+
+}
+/*.logo__imgfondo h2{
+    margin: auto;
+    background-color: #fff;
+    font-size: 90px;
+    position: absolute;
+  
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(213, 203, 203);
+    text-align: center;
+}*/
+
+/*------LOGO-------------*/
+
+/*presentación*/
+/*.descripcion{
+    grid-template-columns: repeat(2,1fr); width: auto;
+    
+}*/
+article{
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-luces-neon_23-2148662320.jpg?w=2000');
+    background: linear-gradient(rgba(255,255,255,0),rgba(0, 0, 0, 0.638));
+    background-size: cover;
+    background-position: center;
+      /* border: 4px solid rgb(30, 36, 197);*/
+       place-items: center;
+
+}
+.descripcion{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.descripcion__izquierda{
+    display: flex;
+    max-width   : 500px;
+    margin-right: 20px;
+    flex-direction: column;
+   
+}
+/*.descripcion__izquierda__titulo{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}*/
+.descripcion__izquierda__titulo{
+   margin-bottom: 20px;
+   font-size: 40px;
+  
+  text-align: center;
+   
+}
+.descripcion__izquierda__titulo h2{
+    
+    float: left;
+    color: #fff;
+    text-align: center;
+ }
+
+.descripcion__izquierda__texto{
+    font-size: 20px;
+   color: #fff;
+}
+.descripcion__derecha{
+    text-align: center;
+}
+.descripcion__derecha__imagen{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;    
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 4px 2px 2px #000;
+    
+}
+/*presentación*/
+
+/*REDES QUE tengo*/
+.redes{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.redes ul li{
+display: inline-block;
+margin-right: 20px;
+text-align: center;
+}
+.redes ul li a{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.252) ;
+    color: #fff;
+    line-height: 50px;
+    font-size: 30px;
+    transition: 0.2s;
+    }
+    .redes ul:hover a{
+            filter: blur(2px);
+    }
+    .redes ul li a:hover{
+        transform: translate(-2px) scale(2);
+        box-shadow: 0 3px 5px 0px rgba(1, 1, 1, 0.4);
+        filter: none;
+    }
+
+    .redes ul li .facebook:hover{
+        background: linear-gradient(rgba(214, 7, 124, 0),rgba(76, 124, 238, 0.887));
+    }
+    .redes ul li .imstagram:hover{
+        background: linear-gradient(rgba(214, 7, 124, 0),rgba(230, 6, 185, 0.638));
+    }
+    .redes ul li .steam:hover{
+        background: linear-gradient(rgba(214, 7, 124, 0),rgba(28, 1, 79, 0.638));
+    }
+/*REDES QUE tengo*/
+
+/*LENGUAJES QUE DOMINO*/
+
+.lenguajesgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);width: auto;
+   
+
+}
+.lenguajesgrid__lenguaje{
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+   }
+   .lenguajesgrid__lenguaje h2{
+   
+   position: absolute;
+   transform: translate(-50%,-50%) scale(0);
+   bottom: -10%;
+    left: 40%;
+    transition: 0.4s;
+   }
+.lenguajesgrid__lenguaje img{
+    cursor: pointer;
+height: 100px;
+width: 100px;
+ transition: 0.5s;
+}
+#csharp{border-radius: 50px;}
+ .lenguajes .lenguajesgrid:hover img{
+    filter: blur(2px);
+}
+.lenguajes .lenguajesgrid img:hover{
+    transform: translate(-2px) scale(1.5);
+    box-shadow: 0 3px 5px 0px rgba(1, 1, 1, 0.4);
+    filter: none;
+    background: linear-gradient(rgba(214, 7, 124, 0),rgba(76, 124, 238, 0.887));
+    
+}
+.lenguajesgrid__lenguaje:hover h2{
+    transform: translate(-2px) scale(1.5);
+    font-size: 20px;
+    color: #fff8f8;
+}
+
+/*LENGUAJES QUE DOMINO*/
+
+
+/*responsive*/
+@media only screen and (max-width: 900px){
+  
+    .nav{
+        position: relative;
+    }
+
+    .menuresponsive i{
+        color: #fff;
+        
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+        margin-left: 50%;
+    }
+    .nav__listaheader ul{
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: #000;
+        margin-top: 2em;
+        transform: translateX(160%);
+        transition: all 1s;
+    }
+    .menuresponsive img{
+        display: none;
+    }
+    .nav .ul-toggle{
+        transform: translateX(-34%);
+    }
+    
+}
+/*resposive*/
